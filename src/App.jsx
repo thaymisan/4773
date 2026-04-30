@@ -34,8 +34,8 @@ function buildWeeks(year, month) {
 
 export default function App() {
   const now   = new Date()
-  const year  = now.getFullYear()
-  const month = now.getMonth() + 1
+  const year  = 2026
+  const month = 5
   const today = now
 
   const { events, loading, error } = useCalendarEvents(year, month)
